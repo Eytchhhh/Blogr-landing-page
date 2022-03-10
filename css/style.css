@@ -1,0 +1,39 @@
+header .navbar {
+    background-image:linear-gradient( 68.3deg, hsl(13, 100%, 72%), hsl(353, 88%, 62%) ); ;
+}
+main .jumbotron-fluid {
+    background-image: url('/images/bg-pattern-intro-desktop.svg'), linear-gradient( 68.3deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%) );
+    background-size:150%;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 70vh;
+    border-bottom-left-radius: 10rem;
+}
+#section {
+    background-color:hsl(205, 15%, 28%);
+    border-bottom-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+
+
+    
+}
+#section .col-sm-7{
+    background-image: url('/images/bg-pattern-circles.svg');
+    background-position:-100px, 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#img-illustrator {
+    transform: translate(15%, -10%);
+}
+#img-phone {
+    transform: translate(15%, 21%);
+}
+#img-laptop {
+    transform: translate(-21%, -10%);
+}
+#footer {
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 5rem;
+}
